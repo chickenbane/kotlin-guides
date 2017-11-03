@@ -108,7 +108,7 @@ val three = one + two // Invokes one.plus(two)
 
 Every non-primitive parameter, return, and field type in a public API should have a nullability annotation. Non-annotated types are interpreted as ["platform" types](https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types) which have ambiguous nullability.
 
-JSR 305 package annotations could be used to set up a reasonable default but are currently discouraged. They require an opt-in flag to be honored by the compiler and conflict with Java 9's module system.
+JSR 305 package annotations could be used to set up a reasonable default but are currently discouraged. They require an opt-in flag to be honored by the compiler and conflict with Java 9's module system.  Instead, use the annotations provided by the [support library](https://developer.android.com/studio/write/annotations.html).
 
 
 # Kotlin (for Java consumption)
