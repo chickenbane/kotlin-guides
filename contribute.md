@@ -10,7 +10,7 @@ Contributions to this website are welcome and appreciated!
 
 To contribute to this website, feel free to create pull requests for small fixes. For bigger contributions we recommend to start an issue on the [issue tracker](https://github.com/android/kotlin-guides/issues) first.
 
-Pull requests should be made targeting the `master` branch from this [GitHub repo](https://github.com/android/kotlin-guides). Every few weeks, the [change log](changelog.html) will be updated and all changes in that time period will be released to the `gh-pages` branch.
+Pull requests should be made targeting the `master` branch of the [GitHub repo](https://github.com/android/kotlin-guides). Every few weeks, the [change log](changelog.html) will be updated and all changes in that time period will be released to the `gh-pages` branch.
 
 **We are looking forward to all of your contributions!**
 
@@ -23,14 +23,13 @@ You can run the site locally on your computer while making changes.
 
 Ensure that you have Ruby and [Bundler](http://bundler.io/) installed.
 
-    brew install ruby
     gem install bundler
 
 ### One-time setup
 
     bundle install --path vendor/bundle
 
-_Note: If you're on Mac OS and this fails installing nokogiri, run `brew unlink xz`, `brew install xz`, and then `brew link xz`._
+_Note: If you're on Mac OS and this fails installing nokogiri, run `brew unlink xz`, install, and then `brew link xz`._
 
 ### Running the site
 
